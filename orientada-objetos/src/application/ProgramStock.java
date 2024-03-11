@@ -20,9 +20,7 @@ public class ProgramStock {
 		System.out.print("Quantity: ");
 		product.quantity = sc.nextInt();
 		
-		System.out.println(product.name + " " + product.price + " " + product.quantity);
-		
-		
+		System.out.println(product);
 		
 		sc.close();
 

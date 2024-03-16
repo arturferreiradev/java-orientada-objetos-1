@@ -61,6 +61,34 @@ A Programação Orientada a Objetos (POO) é um paradigma de programação que o
 
 * É um recurso que uma classe possui de oferecer mais de uma operação com o mesmo nome, porém com diferentes listas de parâmetros.
 
+## Encapsulamento
+
+* É um princípio que consiste em esconder detalhes de implementação de uma classe, expondo apenas operações seguras e que mantenham os objetos em um estado consistente.
+
+* Regra de ouro: o objeto deve sempre estar em um estado consistente, e a própria classe deve garantir isso.
+
+* Regra geral básica
+    * Um objeto NÃO deve expor nenhum atributo (modificador de acesso private)
+    * Os atributos devem ser acessados por meio de métodos get e set
+
+## Gerando automaticamente construtores, getters e setters com Eclipse
+
+Comandos:
+
+* Botão direito -> Source -> Generate Constructor using Fields
+* Botão direito -> Source -> Generate Getters and Setters
+
+## Modificadores de acesso
+
+* private: o membro só pode ser acessado na própria classe
+
+* (nada): o membro só pode ser acessado nas classes do mesmo pacote
+
+* protected: o membro só pode ser acessado no mesmo pacote, bem como em subclasses de pacotes diferentes
+
+* public: o membro é acessado por todas classes (ao menos que ele resida em um módulo diferente que não exporte o pacote onde ele está)
+
+
 
 
 
